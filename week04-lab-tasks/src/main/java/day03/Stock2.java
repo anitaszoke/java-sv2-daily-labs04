@@ -25,28 +25,17 @@ public class Stock2 {
                         bigger = s.get(j);
                     j++;
                     continue;
-
                 }
                 return bigger - lower;
-
             }
 
         return 0;
     }
 
-
-
     public static void main(String[] args) {
         Stock2 s = new Stock2(Arrays.asList(1.23,4.35,0.23,4.0,8.4));
-
-
         System.out.println(s.maxProfit());  //8.17
-
-
         Stock2 stock2 = new Stock2(Arrays.asList(12.0,2.0,8.0,4.0));
-
         System.out.println(stock2.maxProfit()); //6.0
-
     }
-
 }
